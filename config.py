@@ -15,7 +15,7 @@ REPO_NAME = 'ArXivDaily_GalaxyFormation'
 NEW_SUB_URL = 'https://arxiv.org/list/astro-ph/new'
 
 # Keywords to search
-KEYWORD_LIST = ["galaxy formation", "satellite galaxy", "Milky Way", "TNG", "EAGLE", "tidal disruption", "small-scale structure", "dwarf galaxy", "N-body simulation", "hydrodynamical simulation", "cosmological simulation", "dark matter halos"]
+KEYWORD_LIST = ["galaxy formation", "satellite galaxy", "Milky Way", "TNG", "EAGLE", "COLIBRE", "tidal disruption", "small-scale structure", "dwarf galaxy", "N-body simulation", "hydrodynamical simulation", "cosmological simulation", "dark matter halos","void", "star cluster"]
 # Keywords to exclude
 KEYWORD_EX_LIST = ["interstellar medium", "molecular cloud", "standard candle", "X-ray binar", "solar corona", "Instrumentation", "planet"]
 # Note that the 'Keywords' above are actually searched in the abstract instead of the real keyword section. 
