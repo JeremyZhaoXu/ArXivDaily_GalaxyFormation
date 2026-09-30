@@ -14,8 +14,20 @@ REPO_NAME = 'ArXivDaily_GalaxyFormation'
 # Set new submission url of subject
 NEW_SUB_URL = 'https://arxiv.org/list/astro-ph/new'
 
-# Keywords to search
-KEYWORD_LIST = ["COLIBRE", "JWST", "high redshift", "descendant"]
-# Keywords to exclude
-KEYWORD_EX_LIST = ["interstellar medium", "standard candle", "X-ray binar", "solar corona", "Instrumentation", "planet"]
-# Note that the 'Keywords' above are actually searched in the abstract instead of the real keyword section. 
+KEYWORD_LIST = [
+    # sims / SAM / trees
+    "COLIBRE", "EAGLE", "FLAMINGO", "GALFORM", "semi-analytic",
+    "merger tree", "halo finder", "HBT", "hydrodynamical simulation",
+    "cosmological simulation", "subgrid", "zoom-in simulation",
+    # line 1: high-z descendants
+    "descendant", "high-redshift", "high redshift", "z>10", "z > 10",
+    "UV-bright", "UV luminosity function",
+    # line 2: halo mass definition / HMF / GSMF
+    "halo mass function", "halo mass definition", "M_{200", "stellar mass function",
+    # line 3: AGN chemical evolution
+    "AGN feedback", "chemical evolution", "quenching",
+]
+KEYWORD_EX_LIST = [
+    "exoplanet", "protoplanetary", "brown dwarf", "standard candle",
+    "X-ray binar", "solar corona", "planetary system",
+]
