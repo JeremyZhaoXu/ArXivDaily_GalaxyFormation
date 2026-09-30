@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup as bs
 import urllib.request
 
 from github_issue import make_github_issue
+from raw_listing import save_raw_listings
 from config import NEW_SUB_URL, KEYWORD_LIST, KEYWORD_EX_LIST, USERNAME
 
 def main(args):
@@ -18,6 +19,12 @@ def main(args):
     
     # TOKEN = args.token
     
+    # Full unfiltered GA + CO new submissions -> raw/*.json (for the Claude weekly digest)
+    try:
+        save_raw_listings()
+    except Exception as e:
+        print('save_raw_listings failed:', e)
+
     page = urllib.request.urlopen(NEW_SUB_URL)
     soup = bs(page, 'html.parser')
     content = soup.body.find("div", {'id': 'content'})
