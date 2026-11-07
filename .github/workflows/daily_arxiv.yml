@@ -19,18 +19,21 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     name: update
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      contents: write
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.5
+        uses: actions/checkout@v6.0.2
         
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v4.6.0
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v7.1.0
         with:
-          python-version: 3.8        
+          python-version: '3.12'
 
       #- name: Setup Node.js environment
       #  uses: actions/setup-node@v2.5.2
@@ -53,6 +56,9 @@ jobs:
 
       - name: Push done work
         run: |
-          git add --all
+          git add -- README.md Arxiv_Daily_Notice/ raw/
+          if git diff --cached --quiet; then
+            exit 0
+          fi
           git commit -m "Automated deployment"
-          git push --force origin main
+          git push origin main
