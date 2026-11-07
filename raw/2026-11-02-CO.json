@@ -1,0 +1,134 @@
+{
+ "category": "astro-ph.CO",
+ "fetched_utc": "2026-11-07T17:48:48Z",
+ "listing_header": "Showing new listings for Monday, 2 November 2026",
+ "n_new": 14,
+ "papers": [
+  {
+   "id": "2610.42151",
+   "title": "Model-Independent Assessments of Tidal Alignment and Density-Weighting Dependence in Galaxy Intrinsic Alignments",
+   "authors": "Paul Rogozenski, Sukhdeep Singh, Jonathan Blazek, Rachel Mandelbaum, Hung-Jin Huang, Ananth Tenneti",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "Intrinsic alignments (IA) of galaxies are an important source of systematic uncertainty in weak gravitational lensing measurements and also serve as a test for models of galaxy formation and evolution. These galaxy alignments are usually modeled assuming that the IA are sourced by the tidal fields around the galaxies. However, galaxy properties, like their proximity to other galaxies and their mass, provide alignment contributions beyond the tidal field. In this work, we perform novel model-agnostic tests to determine the impact of density-weighting on the IA of galaxies using data from the IllustrisTNG cosmological hydrodynamical simulation and SDSS-III (BOSS). We show that the primary effect of density-weighting is an increase of the alignment amplitude at large scales, whereas the small-scale impact is sample-dependent. We also assess the tidal alignment paradigm for IllustrisTNG galaxies using two-point correlation functions of galaxy shapes, tidal fields, and the sampled background tidal field of the simulation box. We find, given the precision of our measurements, that central galaxies align linearly to the underlying (non-linear) tidal field well into the 1-halo regime."
+  },
+  {
+   "id": "2610.42056",
+   "title": "Tests of equivalence principle violation in doubly coupled dark energy",
+   "authors": "Yannick Kegel, Ziyang Zheng, Luca Amendola",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "Recent work has shown that a simple form of coupled dark energy with a constant coupling produces a good fit to the DESI data. In this scenario, dark matter, but not baryons, couples to a scalar field, thereby violating the weak equivalence principle (EP). We first generalize the coupled dark energy model by adding a nonminimal coupling between the scalar field and gravity, and dub the resulting model \"doubly coupled dark energy\". We then construct a parameter $E_P$ in this model that quantifies EP violation on cosmological scales and can be measured with large galaxy surveys in a model-independent way. Finally, we forecast constraints on the couplings for present and future spectroscopic galaxy surveys, namely DESI, Euclid, and SKA Phase 2 (SKA2). To keep the analysis as general as possible, we leave the initial power spectrum shape and the galaxy bias free to vary in several bins. Among these surveys, SKA2 could provide the tightest constraint on the coupling strength in the coupled dark energy scenario, with a relative $1σ$ uncertainty of $22\\%$. The constraints weaken when both couplings are varied, but can be further improved by increasing the number of galaxies detected."
+  },
+  {
+   "id": "2610.42044",
+   "title": "Elastic boundaries in Stochastic Inflation",
+   "authors": "Baptiste Blachier",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; General Relativity and Quantum Cosmology (gr-qc)",
+   "abstract": "In the context of stochastic inflation, specifying boundary conditions is often a requirement to distinguish domains where quantum diffusion takes place from regions where stochastic effects are suppressed compared to the standard slow-roll evolution. Yet, even though the transition between the two is expected to be smooth and continuous, most of the literature has hitherto focused on absorbing and reflective boundaries. We consider here the use of a broader class of boundaries, called elastic, which involves one free parameter interpolating between these two limiting cases. We show how the conventional stochastic-$δN$, and its recently proposed time-reversed counterpart adapt to such a class of boundary behaviour. As an illustration, we solve time-reversed stochastic inflation for an exactly flat semi-infinite potential with an elastic boundary, a setup where the standard stochastic-$δN$ formalism breaks down, and compare the results to the purely absorbing case. Quantitative differences are found in terms of skewness and tail behaviour. This suggests that the transition between stochastic inflation and subsequent evolution may have observable consequences. Finally, we show that an elastic boundary stands as an effective model for stochastic tunnelling through a Dirac delta potential barrier. This mechanism can be equivalently framed as a smooth transition of stochastic trajectories in a mirror virtual medium with specific absorption properties."
+  },
+  {
+   "id": "2610.41940",
+   "title": "Cosmology with post-EoR 21 cm Intensity Mapping surveys: power spectrum measurements in the last decade",
+   "authors": "Réza Ansari, Xuelei Chen, Albert Stebbins, Peter Timbie",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "The technique of 21 cm intensity mapping (IM) is emerging as a possible, cost-effective method to supplement optical surveys to map the large-scale structure, and extend their redshift reach, with projects aiming to cover a large range of post-EoR redshifts, from z=0 to z=6. Since the early discussions 20 years ago, a few dedicated interferometers have been built, and surveys have been carried out using them as well as general purpose radio instruments. An introduction to late-time cosmology with 21 cm intensity mapping is given, highlighting the main scientific and technical challenges. We present then an overview of different instrument concepts and survey strategies, followed by a discussion of outstanding data analysis challenges, most notably the foreground subtraction, which is a major issue in IM. We carry on with a presentation of the currently active projects and the 21 cm signal measurements which have been obtained, either in cross-correlation with optical surveys, or as the autocorrelation power spectrum. Finally, we discuss briefly the prospects for this field with future instruments and surveys such as SKA, HIRAX and CHORD."
+  },
+  {
+   "id": "2610.41914",
+   "title": "Two-loop matter power spectrum from FFTLog and kite integrals",
+   "authors": "Paola Cappellazzi, Johannes M. Henn, Marko Simonović",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; High Energy Physics - Theory (hep-th)",
+   "abstract": "We present a fast and accurate method for computing the two-loop matter power spectrum in the Effective Field Theory of Large-Scale Structure (EFTofLSS). Using FFTLog, we decompose the linear power spectrum into complex power laws, reducing the two-loop corrections to cosmology-independent massless Feynman integrals of kite topology. A central numerical challenge is the evaluation of these integrals for complex powers with large imaginary parts, where the highly oscillatory integrands make accurate numerical evaluation particularly challenging. We overcome this difficulty using a Mellin--Barnes representation summed over a uniform lattice, achieving approximately ten digit precision even for large imaginary powers, with an error estimate for each integral. The resulting precomputed matrices allow the two-loop power spectrum to be evaluated for a new cosmology in a few milliseconds. Comparing with direct numerical integration, we find agreement at the $10^{-4}$ level relative to the power spectrum up to $k=0.2$ $h$Mpc$^{-1}$ after accounting for EFTofLSS counterterm contributions and FFTLog decomposition errors. The same framework extends to biased tracers and redshift-space distortions, providing the building blocks for general two-loop calculations in EFTofLSS. We make the code for evaluating the kite integrals publicly available, together with precomputed matrices and an implementation for the two-loop matter power spectrum as a concrete application. Our results can be directly incorporated into existing FFTLog-based codes for large-scale structure, extending their current one-loop capabilities to two loops within the same computational framework."
+  },
+  {
+   "id": "2610.41823",
+   "title": "Primordial black holes and gravitational waves from aligned axion inflation",
+   "authors": "Nadir Ijaz",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; High Energy Physics - Phenomenology (hep-ph)",
+   "abstract": "We study the production of primordial black holes (PBHs) and scalar-induced gravitational waves (SIGWs) in aligned axion inflation through the transition between two stages of inflation. The first stage proceeds along a metastable trajectory and ends when this trajectory loses stability, causing the fields to turn towards the attractor of the second inflationary stage. During the transition, coupled adiabatic--entropy evolution produces a localized enhancement of the curvature power spectrum. We compute the PBH abundance from this spectrum assuming Gaussian primordial curvature perturbations and using the nonlinear compaction-function formalism with a spectrum-dependent collapse threshold and critical collapse. Representative benchmark solutions yield asteroid-mass PBHs with a potentially significant dark-matter abundance, together with an associated SIGW background."
+  },
+  {
+   "id": "2610.41796",
+   "title": "The Dynamical Mass Profiles of Galaxy Groups - Application to IllustrisTNG-300",
+   "authors": "Alfie Russell, Rita Tojeiro, Anne-Marie Weijmans",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "We present a new rescaling and stacking method to test cold dark matter predictions through the dynamical modelling of galaxy groups using the Jeans equation. We test the viability of this method on idealised, line-of-sight group data at $z=0$ in the IllustrisTNG-300 simulation, using subhalos and satellite galaxies as tracers. Dynamical mass profiles are measured using the code `Gravsphere' for seven distinct quality cuts, three on the dark matter substructure and four on the `visible' satellite galaxies. When using the dark matter substructure, we find that selecting subhalos by their infall time onto the group provides the best recovery of the true mass profile. When using satellite galaxies we instead find that selecting quenched satellites provides the best recovery. In both cases the mass profile is recovered within $<1σ$ of the true value up to $\\sim 1.5$ times the median host virial radius. However, we also find the recovered velocity anisotropy to be biased towards negative values for all seven of our subhalo samples beyond the median host virial radius. This suggests dynamical systematics may still be present in the data, which will need to be quantified in future work before application to surveys."
+  },
+  {
+   "id": "2610.41252",
+   "title": "The Effect of Large Apertures on Atmospheric Noise Spectra for Millimeter-wave Telescopes",
+   "authors": "Thomas W. Morris, Neelima Sehgal",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+   "abstract": "Ground-based millimeter and submillimeter telescopes produce astronomical maps that contain a combination of noise inherent to themselves as well as contamination from foregrounds, with the strongest foreground being fluctuating atmospheric emission. While the emission of the turbulent atmosphere itself follows a scale-free power law, the atmosphere as seen by the telescope is modified by the properties of the instrument optics. A naive power-law extrapolation of the atmospheric noise spectrum ignores the blurring effect of the near-field beam, which becomes more pronounced for larger telescope apertures and at higher multipoles. In this work, we use a toy model to derive a semianalytic estimate of the atmospheric noise spectrum that takes into account the effects of near-field optics. We show that it has an appreciable effect for large-aperture telescopes, suggesting that ultra-sensitive, high-resolution experiments are not necessarily limited by the atmosphere on small angular scales. We also present an estimate of the atmospheric knee as a function of the primary aperture, the atmospheric scale height, and the outer scale of turbulence."
+  },
+  {
+   "id": "2610.41077",
+   "title": "Vacuum Phase Transition and Decay to Cross the Phantom Divide",
+   "authors": "William Giarè, Kushal Lodha, Robert R. Caldwell, Eleonora Di Valentino, Eric V. Linder",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "We show that the vacuum metamorphosis model with decay fits current baryon acoustic oscillation and supernova distance data and cosmic microwave background measurements significantly better than $Λ$CDM and nearly as well as $w_0w_a$CDM with the same number of parameters. Vacuum metamorphosis with decay provides a physically motivated model of dark energy and an explanation of current cosmological data. In this scenario, non-perturbative quantum effects of a massive scalar field freeze the Ricci scalar curvature when it reaches a critical value proportional to the mass squared, inducing a phase transition in the scalar field, giving a phantom dark energy equation of state $w<-1$. After the phase transition, vacuum energy decays into light particles, providing a natural mechanism for the dark-energy equation of state to cross the phantom divide from $w<-1$ to $w>-1$, in agreement with current cosmological indications, without requiring an explicit coupling to matter."
+  },
+  {
+   "id": "2610.40875",
+   "title": "FOMO-Z. Optimal galaxy classification, photometric redshifts, and reconstruction of population distributions",
+   "authors": "G. F. Lesci",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; Astrophysics of Galaxies (astro-ph.GA)",
+   "abstract": "We present FOMO-Z (Flexible Optimizer of Multi-dimensional Operators and photo-$z$s), a set of statistical methods implemented in Python for galaxy classification and probabilistic inference from photometry. The methods use a reference sample with known galaxy properties. They rely on explicit, physically interpretable criteria and make no assumptions about the functional form of the color distributions. Binary selections are calibrated using either linear color conditions, particularly suited to background galaxy selection, or flexible color--color grids, seeking to maximize completeness given a threshold on purity. For probabilistic inference, the code identifies reference objects with compatible colors within photometric uncertainties to estimate each test galaxy's probability of satisfying user-defined criteria, as well as probability density functions of continuous properties such as redshift. The code also reconstructs property distributions of selected galaxy populations using photometrically similar galaxies in the reference sample. This framework supports prior weights and reference redshift probability distributions. A built-in feature-selection method identifying informative colors is also introduced. We demonstrate applications to background galaxy selection, galaxy population classification, tomographic redshift calibration, and photometric redshift estimation. The code achieves results consistent with those obtained through machine-learning approaches, such as self-organizing maps, while remaining computationally efficient, making it suitable for large photometric surveys and future Stage IV cosmological analyses. The code is publicly available at https://github.com/GiorgioLesci/FOMO-Z."
+  },
+  {
+   "id": "2610.40846",
+   "title": "From Quantum Field Fluctuations to High-Redshift AGN: Semiclassical Origins of Halo Mass Function Constraints in the JWST Era",
+   "authors": "Elan Yogeswaren, Amir-Homayoon Najmi, Robert K Schaefer",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; Astrophysics of Galaxies (astro-ph.GA)",
+   "abstract": "We develop a continuous framework connecting quantum field fluctuations in the early Universe to the abundance and observable properties of galaxies and active galactic nuclei (AGN) at cosmic dawn. Beginning with quantum fields in curved Friedmann Lemaitre Robertson Walker spacetime, we follow inflationary vacuum fluctuations into the primordial curvature spectrum, linear matter power spectrum, mass variance $σ(M,z)$, mass peak height $ν(M,z)$, and the statistics of nonlinear halo formation. The Press-Schechter and Sheth-Tormen formalisms provide an analytic description of halo abundance and its dependence on peak rarity. A complementary high redshift halo mass function calibrated with the GUREFT simulations of Yung et al. (2024) provides a numerical description specifically constructed for the cosmic dawn regime probed by JWST. The comparison between these analytic and simulation calibrated prescriptions provides a direct measure of the sensitivity of predicted halo populations to the observations. We separate this cosmological supply of halos from the astrophysical and observational mappings that produce stars, ultraviolet luminosities, and active galactic nuclei. Controlled numerical experiments show that a percent level perturbation in the primordial fluctuation amplitude produces only a modest change in $σ$ and $ν$, but can strongly amplify the exponentially suppressed high $ν$ tail of the Halo Mass Function. This sensitivity increases toward high halo mass and high redshift, identifying rare cosmic dawn populations as potentially powerful probes of primordial statistics while simultaneously exposing the importance of uncertainties in halo abundance. High redshift AGN population statistics and the Ultraviolet Luminosity Function provide additional constraints on the primordial power spectrum and dynamics of primordial inflation theory."
+  },
+  {
+   "id": "2610.40785",
+   "title": "Model-independent and reconstruction-free evidence for cosmic acceleration from DESI baryon acoustic oscillations",
+   "authors": "Laura Herold, Graeme E. Addison, Adam G. Riess",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "While there is ample evidence that the universe's expansion is accelerating, most of this evidence relies on assuming a shape of the relative expansion rate, $H(z)/H_0$, informed by a cosmological model or a kinematical approach. Model-independent analyses are common for supernova datasets but rarely applied to other data. In this work, we use uncalibrated baryon acoustic oscillations (BAO) from DESI DR2 for a model-independent test of acceleration, which makes no assumptions about the theory of gravity or the energy content of the universe. We test for cosmic acceleration with three model-independent statistics that rely purely on the measured Alcock-Paczyński parameter, the isotropic BAO, and the line-of-sight BAO, and do not require any reconstruction between redshift bins unlike previous analyses. Accounting for the look-elsewhere effect, among all statistics we find $2.4σ$ - $4.1σ$ evidence for cosmic acceleration within $0 \\leq z \\leq 0.934$ when assuming flatness; allowing for spatial curvature, $|Ω_k| \\leq 1$, at least two of the three statistics retain $2.4σ$ - $3.5σ$."
+  },
+  {
+   "id": "2610.40770",
+   "title": "When precise inference is wrong: Diagnosing model misspecification with applications to cosmic dawn and reionisation",
+   "authors": "Daniela Breitman",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; Astrophysics of Galaxies (astro-ph.GA)",
+   "abstract": "As observations of the cosmic dawn (CD) and epoch of reionisation (EoR) rapidly improve in precision, the approximate forward models used to interpret them might struggle to keep pace. Bayesian inference with a misspecified model, one that cannot represent the processes generating the observations, can yield tightly constrained, yet misleading and biased astrophysics, with different parts of the observations favouring incompatible parameter values. Model misspecification can evade a $χ^2$ goodness-of-fit test, and Bayesian model selection requires a better model, which is not always available. We therefore apply the suspiciousness, a statistic developed to quantify tensions between datasets, to CD/EoR inference as a model criticism tool that tests whether these parts can be explained by the same parameters. We first apply it to HERA 21-cm power spectrum (PS) upper limits, which are too weak to reveal misspecification, as expected, and to HST and JWST UV luminosity functions (LFs). Under our galaxy model, the UV LFs at $z\\leq10$ and $z>10$ are in tension at $5.0σ$ in the Gaussian limit, a failure visible in the fits, although doubling the uncertainties of the $z>10$ observations reduces it to $2.1σ$. Finally, we analyse a mock SKA-Low AA$^\\ast$ 1080 h 21-cm PS with the model that generated it and with a simpler, misspecified model. We find that the misspecified model silently fails: it fits the PS well, passing visual inspection and, for most noise realisations, a $χ^2$ test, yet its inferred astrophysics is wrong. The Bayesian evidence disfavours it, but only relative to the true model, which is unavailable for real observations. The suspiciousness finds no tension for the well-specified model, but a $\\sim3.4σ$ tension for the misspecified one, strongly ruling it out without requiring a more adequate candidate model."
+  },
+  {
+   "id": "2610.40766",
+   "title": "Hints of self-interacting dark matter from strong gravitational lensing",
+   "authors": "Daniel Gilman, Kalliopi Petraki, Thomas Pignard, James Gurian, Alex Kusenko, Anna Nierenberg",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; High Energy Physics - Phenomenology (hep-ph)",
+   "abstract": "An analysis of 29 quadruply imaged quasars hints at dark matter halo densities consistent with gravothermal core collapse, a key prediction of self-interacting dark matter. We interpret this evidence through elastic Yukawa scattering, combining lensing with upper limits on the cross-section strength from galaxy clusters and Milky Way satellite evaporation. Favored models have dark matter masses of $20$-$80\\,{\\rm GeV}$, MeV-scale mediators, and Yukawa-potential strengths near $10^{-3}$, yielding cross-sections of $10^2$--$10^4 \\, {\\rm cm^2\\,g^{-1}}$ at $10\\,{\\rm km\\,s^{-1}}$. Cosmological, direct and indirect detection bounds on MeV-scale mediators motivate a neutrinophilic scalar dilepton that decays invisibly without Higgs mixing. These results demonstrate how inferences on core collapse constrain dark sector physics."
+  }
+ ],
+ "backfill": {
+  "announcement_date": "2026-11-02",
+  "listing_url": "https://arxiv.org/list/astro-ph.CO/pastweek?skip=0&show=2000",
+  "listing_day_header": "Mon, 2 Nov 2026 (showing 21 of 21 entries )",
+  "listing_sha256": "dc911e7038d8aec0fc3874b4ede864a4d9ebecc049c4d8fc1238019ac625ec91",
+  "metadata_api": "https://export.arxiv.org/api/query",
+  "metadata_api_response_sha256": [
+   "ce3a9a42b6c844e1752c9aace2991776ab2f6ae2bf77bf3c80cd9cae5bd66e07"
+  ],
+  "metadata_versions": {
+   "2610.42151": "2610.42151v1",
+   "2610.42056": "2610.42056v1",
+   "2610.42044": "2610.42044v1",
+   "2610.41940": "2610.41940v1",
+   "2610.41914": "2610.41914v1",
+   "2610.41823": "2610.41823v1",
+   "2610.41796": "2610.41796v1",
+   "2610.41252": "2610.41252v1",
+   "2610.41077": "2610.41077v1",
+   "2610.40875": "2610.40875v1",
+   "2610.40846": "2610.40846v1",
+   "2610.40785": "2610.40785v1",
+   "2610.40770": "2610.40770v1",
+   "2610.40766": "2610.40766v1"
+  },
+  "scope": "Primary-category new submissions only, as grouped by this category listing. Cross-lists and replacements are excluded.",
+  "metadata_note": "Metadata retrieved during backfill may reflect revisions after the announcement date. Each category retains the date grouping of its own historical listing."
+ }
+}

@@ -1,0 +1,118 @@
+{
+ "category": "astro-ph.CO",
+ "fetched_utc": "2026-11-07T17:48:48Z",
+ "listing_header": "Showing new listings for Thursday, 5 November 2026",
+ "n_new": 12,
+ "papers": [
+  {
+   "id": "2611.06872",
+   "title": "Magnetohydrodynamics During Reheating",
+   "authors": "Sovan Sau, Subhasis Maiti, Sahel Dey, Alberto Roper Pol, Debaprasad Maity",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "Reheating is a crucial phase that connects inflation with the hot Big Bang Universe. During this phase, the nonlinear interactions among the inflaton, the radiation plasma, and the primordial magnetic fields can influence the subsequent evolution of cosmic structures we observe today. In this paper, we develop a multifluid framework to investigate the evolution of three dimensional nonlinear magnetohydrodynamics (MHD) during the non instantaneous reheating phase driven by the perturbative decay of the inflaton into the radiation plasma. For the present paper, we consider the simplest scenario where the inflaton field homogeneously injects energy into the radiation sector. We study the MHD evolution of the coupled inflaton radiation system during the reheating phase, including the evolution of their individual kinetic energies, the velocity perturbations, vorticity, magnetic fields, and gravitational waves. We find that homogeneous energy transfer from the inflaton to the radiation sector increases the radiation and kinetic energy densities but does not significantly amplify the initial magnetic field perturbations. Consequently, the magnetic spectrum remains largely unchanged with respect to the instantaneous reheating scenario, while the velocity perturbations undergo a scale redistribution that affects the resulting GW spectrum. Our results demonstrate the importance of nonlinear multifluid MHD dynamics in understanding the evolution of primordial fields during reheating and provide a framework for exploring more realistic scenarios involving inhomogeneous decay processes and detailed thermalization effects."
+  },
+  {
+   "id": "2611.06787",
+   "title": "Cosmological Backreaction and the Separate Universe Conjecture: Dynamical volume partitioning of Newtonian cosmologies",
+   "authors": "Thomas Buchert, Jan J. Ostrowski, Alfred Bovon",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "We provide a description of general Newtonian cosmologies for collisionless matter in terms of an exact and dynamical volume partitioning of global realizations of Newtonian models. Employing the formalism for the description of cosmological backreaction, an interaction between the inhomogeneities of the formation of structures in the Universe and their average properties can be analyzed. Our results can be regarded as a tool for many potential applications in the context of Newtonian simulations, but they also provide an exact way to assume analytical properties of the universe models on regional scales in conformity with global integral constraints on their average properties. We discuss approaches in relation to `separate Universe conjectures' in the literature and examine their consistency with the exact partitioning framework. In particular, using the Average Expansion Rate Approximation (AvERA) as an example, we show that identifying locally assigned Friedmannian rates with physical regional expansion rates is constrained by the global Newtonian 3-torus condition. Alternatively, when the simulation cells are interpreted as non-material control volumes, Reynolds transport introduces mass flux and flux-backreaction terms, so that their dynamics is not in general that of independent Friedmann domains. We also discuss the corresponding consistency conditions for stable clustering prescriptions."
+  },
+  {
+   "id": "2611.06399",
+   "title": "Planting neutrino SE-EdS: A < 3% accurate clustering approximation for neutrinos and other hot dark matter",
+   "authors": "Amol Upadhye, Yvonne Y. Y. Wong",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; High Energy Physics - Phenomenology (hep-ph)",
+   "abstract": "The age of the cosmic neutrino is upon us. Aside from their fundamental importance to particle physics and the recent tensions in their mass scale $M_ν= \\sum m_ν$, neutrinos' degeneracies with other cosmological parameters in analyses of scale-dependent cosmic clustering will significantly affect the estimates of these parameters, making accurate, inexpensive, easily-implemented approximations essential tools for theoretical cosmology. We present a new linear approximation, SE-EdS, applicable to non-relativistic neutrinos and other hot dark matter, which is exact in the linear Einstein-de Sitter case, and < 3% accurate for a broad range of flat and non-flat cosmologies characterized by parameters $0.2 \\leq Ω_{m,0} \\leq 1$, $0 \\leq Ω_{ν,0} \\leq 0.018$, $-0.1 \\leq Ω_{K,0} \\leq 0.1$, and $w_0 \\leq -0.6$, at all length scales. This broad coverage in $Ω_{m,0}$ makes SE-EdS ideal for N-body simulations, whose redshift range $z \\lesssim 100$ demands accuracy for time-dependent $Ω_m$ between unity and the preferred late-time values $\\sim 0.3$. SE-EdS may be used to paint neutrinos into simulations in Fourier space, where its < 3% error and neutrinos' $\\leq$ 3% matter fraction guarantees < 0.1% errors in the total matter density contrast, thereby including neutrino effects upon clustering at negligible computational cost. We quantify the approximation's accuracy; extend it to a broad range of cosmologies; and explore its correspondence with higher-order corrections to existing linear response schemes. A simple implementation is available online at https://codeberg.org/upadhye/SE-EdS ."
+  },
+  {
+   "id": "2611.06330",
+   "title": "Horndeski Gravity as an Effective Dark Energy Fluid in Cosmological N-body Simulations",
+   "authors": "Vicente Pedreros Aballay",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "Unraveling the nature of the cosmic expansion, driven by Dark Energy (DE), remains one of the key challenges in modern cosmology. Modified Gravity (MG) models provide an alternative to the standard cosmological constant paradigm. These models predict distinct signatures in the growth of structure, yet analytical predictions are challenging due to the highly non--linear equations involved. To overcome this problem, we study MG as an effective DE fluid. To this end, we have incorporated linear DE perturbations into the N--body code $\\texttt{CO}N\\texttt{CEPT}$, which relies on the Einstein--Boltzmann solver $\\texttt{CLASS}$. We replaced the $\\texttt{CLASS}$ version used by $\\texttt{CO}N\\texttt{CEPT}$ with $\\texttt{mochi\\_CLASS}$, a patched version that includes Horndeski family models. By writing linear DE perturbations ($δρ_{\\rm DE}$, $δP_{\\rm DE}$, $θ_{\\rm DE}$, and $σ_{\\rm DE}$) in terms of metric perturbations in the synchronous gauge, the N--body code is able to evolve the effective fluid using the Boltzmann equation. Our current simulations encompass a range of cosmological scenarios ---$w_0w_a$CDM, Hu--Sawicki $f(R)$ and cubic Galileon--- each extended to include massive neutrinos. For each of the models, we have found deviations from General Relativity close to what is predicted in the linear regime: a sub-$0.2\\%$ relative difference for $Λ$CDM, up to $40\\%$ for $f(R)$ and a sub-$25\\%$ for cubic Galileon. Since our code is the first to implement Horndeski gravity into an N--body code, its validation is a non--trivial computational task. Our novel code opens the door to explore a vast number of modified gravity models in the context of current and future cosmological surveys."
+  },
+  {
+   "id": "2611.06329",
+   "title": "Primordial Black Holes and Induced Gravitational Waves from Inflation with History-Dependent Effective Dissipation",
+   "authors": "Narges Rashidi",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; High Energy Physics - Phenomenology (hep-ph)",
+   "abstract": "We study inflation with an exponential factor multiplying the scalar Lagrangian and depending on the accumulated expansion history through a field-dependent coupling. Variation of the complete action on a finite interval yields an adjoint response with a final-time boundary condition. We derive the background and coupled scalar perturbation equations and examine five benchmarks for an exponential plateau potential and a smooth single-window coupling. The kinetic, direct-coupling and adjoint contributions nearly cancel, producing transient positive minima of the first Hubble slow-roll parameter, $ε_1$, without a comparable reduction in field velocity. The scalar spectra, normalized to the cosmic microwave background (CMB) pivot amplitude, develop localized peaks with amplitudes $0.033$--$0.098$. Under Gaussian statistics and the adopted radiation-era collapse prescription, the the primordial black hole (PBH) abundance peaks span masses from $4.52\\times10^{-13}$ to $34.05\\,M_\\odot$. The lightest-mass benchmark reaches $f_{\\rm PBH}\\simeq0.99$, allowing nearly all dark matter within the monochromatic approximation. The accompanying scalar-induced gravitational-wave spectra span peak frequencies from $6.78\\times10^{-10}$ to $5.92\\times10^{-3}\\,\\mathrm{Hz}$, with selected benchmarks lying within the projected sensitivities of future detectors."
+  },
+  {
+   "id": "2611.06304",
+   "title": "Euclid: Survey mask effects on clustering of galaxy clusters",
+   "authors": "A. Fumagalli (1), R. Ingrao (2 and 3 and 1 and 4), M. Costanzi (2 and 1 and 3), T. Castro (5 and 1 and 3), S. Borgani (2 and 3 and 1 and 4 and 6), A. Saro (2 and 3 and 1 and 4 and 6), E. Tsaprazi (7 and 8), F. Marulli (9 and 10 and 11), M. Aguena (1), L. Baumont (2 and 1 and 3), N. Aghanim (12), B. Altieri (13), S. Andreon (14), N. Auricchio (10), C. Baccigalupi (3 and 1 and 4 and 15), M. Baldi (16 and 10 and 11), P. Battaglia (10), A. Biviano (1 and 3), E. Branchini (17 and 18 and 14), M. Brescia (19 and 20), J. Brinchmann (21 and 22 and 23), S. Camera (24 and 25 and 26), V. Capobianco (26), C. Carbone (27), M. Castellano (28), G. Castignani (10), S. Cavuoti (20 and 29), A. Cimatti (30), C. Colodro-Conde (31), G. Congedo (32), L. Conversi (33 and 13), Y. Copin (34), H. M. Courtois (35), H. Degaudenzi (36), S. de la Torre (37), G. De Lucia (1), H. Dole (12 and 38), F. Dubath (36), X. Dupac (13), S. Dusini (39), S. Escoffier (40), M. Farina (41), F. Faustini (28), S. Ferriol (34), F. Finelli (10 and 42), M. Frailis (1), E. Franceschi (10), M. Fumana (27), L. Gabarra (43), S. Galeotta (1), K. George (44), C. Giocoli (10 and 11), A. Grazian (45), F. Grupp (46 and 47), L. Guzzo (48 and 14 and 49), S. V. H. Haugan (50), S. Hemmati (51), W. Holmes (52), F. Hormuth (53), A. Hornstrup (54 and 55), K. Jahnke (56), M. Jhabvala (57), S. Kermiche (40), A. Kiessling (52), M. Kilbinger (58), B. Kubik (34), M. Kümmel (47), M. Kunz (59), H. Kurki-Suonio (60 and 61), A. M. C. Le Brun (8), S. Ligori (26), P. B. Lilje (50), V. Lindholm (60 and 61), I. Lloro (62), M. Magliocchetti (41), G. Mainetti (63), S. Marcin (64), O. Marggraf (65), M. Martinelli (28 and 66), N. Martinet (37), R. J. Massey (67), N. Mauri (30 and 11), E. Medinaceli (10), M. Meneghetti (10 and 11), E. Merlin (45), P. Monaco (2 and 1 and 4 and 3), A. Mora (68), M. Moresco (9 and 10), L. Moscardini (9 and 10 and 11), E. Munari (1 and 3), C. Neissner (69 and 70), S.-M. Niemi (71), J. W. Nightingale (72), C. Padilla (69), S. Paltani (36), F. Pasian (1), V. Pettorino (71), A. Pezzotta (14), S. Pires (58), G. Polenta",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "Wide-area cluster catalogues from Stage-IV surveys will substantially improve the precision of cluster clustering measurements, making the control of observational systematic effects essential for cosmological inference. In preparation for the first Euclid data release (DR1), we assess the impact of the survey mask and non-homogeneous sky coverage on the two-point correlation function of galaxy clusters and its covariance. Using DR1-like lightcone mocks, we confirm that the irregular footprint does not introduce appreciable changes in the two-point correlation function when the same mask is applied to the random catalogue. We also find that spatial inhomogeneities, implemented as variations of the cluster selection function in different patches of the sky, do not significantly bias the clustering amplitude, up to levels of variation well above those expected for DR1. When the degree of inhomogeneity is increased to the regime where the effect becomes significant, we show that its amplitude is related to the maximum variation of the selection function among different regions, rather than to the number of such regions. We further find that irregular mask geometry and non-uniform sky coverage both increase the clustering covariance, introducing small, nearly scale-independent offsets that can be captured by nuisance parameters in the covariance model. Our results consolidate the treatment of mask systematic errors for DR1 and inform the methodological refinements required for future \\Euclid cluster cosmology."
+  },
+  {
+   "id": "2611.05947",
+   "title": "Gravitational-Wave Microlensing as a Probe of Compact Object Population",
+   "authors": "Eungwang Seo, Jose María Ezquiaga, Martin Hendry",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; General Relativity and Quantum Cosmology (gr-qc); Data Analysis, Statistics and Probability (physics.data-an)",
+   "abstract": "The abundance of compact objects ranging from stellar to intermediate masses ($\\sim 1 - 10^{5}M_{\\odot}$) remains poorly constrained, particularly for populations such as primordial black holes and dark matter subhalos that emit little or no electromagnetic radiation. Gravitational-wave (GW) microlensing provides a complementary way to probe these populations through wave-optics effects imprinted on the GW signals, with implications for astrophysical and cosmological inference. We develop a hierarchical Bayesian framework to infer the population properties of microlenses from an ensemble of microlensed GW events, constraining the slope of the power-law lens mass function ($α_{\\rm ML}$), the lens number density ($n_0$), and the fraction of dark matter in compact lenses ($f_{\\rm DM}$). Using simulated microlensed GW signals drawn from a realistic binary black hole population, we find that $\\sim 100$ detected microlensed events are able to constrain both $α_{\\rm ML}$ and $n_0$, although a degeneracy between the two remains. For a low-mass-dominated lens population ($α_{\\rm ML}=2$) with $n_0=10^6~\\mathrm{Mpc}^{-3}$, a three-year observation at the O4 sensitivity yields $\\sim 130$ detectable microlensed events and recovers the injected dark-matter fraction, $f_{\\rm DM}\\simeq 1.2 \\times 10^{-4}$, with a 90% credible interval of $7.3 \\times 10^{-5} \\lesssim f_{\\rm DM} \\lesssim 1.8 \\times 10^{-4}$."
+  },
+  {
+   "id": "2611.05718",
+   "title": "Observational Test of the Maximum-Entropy Conjecture for Black-Hole Mergers with GW250114",
+   "authors": "Yang Jiang, Qing-Guo Huang",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; General Relativity and Quantum Cosmology (gr-qc); High Energy Physics - Theory (hep-th)",
+   "abstract": "The remnants of binary black-hole (BBH) mergers are accurately described by numerical relativity, but the physical principle governing the selection of the final states remains unclear. A recently proposed maximum-entropy conjecture suggests that a BBH merger produces the Kerr BH that maximizes the Bekenstein-Hawking entropy, subject to the post-Newtonian formalism or balance laws for energy and angular momentum. In this work, we test this conjecture with the event GW250114, inferring the progenitor and remnant properties from the observed pre-merge and post-merge signals, separately. We construct the surrogate Kerr entropy associated with candidate remnant states along the inferred energy-angular-momentum trajectory. We then compare the maximum-entropy state with the independently inferred mass and dimensionless spin of the final BH. We find that the conjecture predicts a remnant mass of $M_f=70.0^{+0.35}_{-0.21}\\,M_\\odot$ and spin of $χ_f=0.70^{+0.00}_{-0.01}$, compared with the ringdown estimates $M_f={72.3}^{+3.6}_{-3.7}\\,M_\\odot$ and $χ_f=0.74^{+0.05}_{-0.07}$. The entropy deviation is consistent with zero within the $68\\%$ credible interval for our fiducial analysis, and variations in the pre-merger truncation time and quasi-normal modes (QNM) content reveal no compelling discrepancy with the conjecture."
+  },
+  {
+   "id": "2611.05566",
+   "title": "PrimordialPy: A Python library for single-field inflation, primordial black holes, and scalar-induced gravitational waves",
+   "authors": "Flavio Pineda",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "We present \\texttt{PrimordialPy}, an open-source Python library designed to compute the cosmological predictions of arbitrary canonical single-field inflationary models. By numerically solving the background dynamics and the curvature perturbation equation, the package evaluates the primordial power spectrum of scalar and tensor perturbations at all relevant scales. Furthermore, it automatically computes the resulting mass fraction and abundance of Primordial Black Holes (PBHs), as well as the associated spectrum of scalar-induced gravitational waves (SIGWs). Users can seamlessly implement any canonical single-field model by simply specifying the inflaton potential $V(φ)$ and its parameters. Designed to be modular, efficient, and highly accessible, \\texttt{PrimordialPy} comes with comprehensive documentation, validation benchmarks, and practical examples, making it a versatile tool for both research and education in early-universe cosmology."
+  },
+  {
+   "id": "2611.05560",
+   "title": "An obstruction to cosmic acceleration from shift-symmetric dark sector interactions",
+   "authors": "Jose Beltrán Jiménez, Luis J. Garay, Erik Jensko, María Pérez Garrote",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; General Relativity and Quantum Cosmology (gr-qc); High Energy Physics - Theory (hep-th)",
+   "abstract": "Using the effective field theory of cosmological media, we show that derivative interactions in the dark sector between a perfect fluid and a superfluid cannot support slow-roll expansion while remaining free from instabilities. Furthermore, decomposing the dark sector medium into effective dark matter and dark energy components, we find that the stability conditions exclude a phantom-to-non-phantom crossing. Our approach gives a clear route for constructing theoretically viable dark sector models, and highlights the fundamental constraints that stability requirements impose on their cosmological dynamics."
+  },
+  {
+   "id": "2611.05504",
+   "title": "Gravitational waves flooding the Universe after wall domination",
+   "authors": "Sabir Ramazanov, Zhen-Min Zeng",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; High Energy Physics - Phenomenology (hep-ph); High Energy Physics - Theory (hep-th)",
+   "abstract": "We discuss a possible early Universe scenario, where radiation era is interrupted by the epoch of domination of domain walls eventually annihilating into particles. During this period the Universe undergoes accelerated expansion, while the comoving correlation length of the domain wall network remains constant. The network serves as a source of tensor modes, which get frozen upon exiting the horizon similarly to the case of inflationary fluctuations. The modes re-enter the horizon during the subsequent stage of radiation domination and since then contribute to the gravitational wave background. The spectral shape of gravitational waves predicted in this scenario is markedly different compared to the case of domain walls remaining sub-dominant all the way till annihilation. These gravitational waves are strong enough to be observed with present-day and future facilities in a broad range of frequencies. In particular, their energy density is sufficient to produce a significant impact on the effective number of neutrino species, unless the duration of wall domination is suitably constrained."
+  },
+  {
+   "id": "2611.05476",
+   "title": "CHEX-MATE: Density profile reconstruction in galaxy clusters",
+   "authors": "I. Bartalucci, G. W. Pratt, E. Rasia, M. Arnaud, R.T. Duffy, Y. E. Bahar, M. Balboni, E. Baraldi, R. M. Batalha, A. Bonafede, H. Bourdin, F. De Luca, M. De Petris, S. Ettori, A. Ferragamo, M. Gaspari, F. Gastaldello, M. Gitti, A. Iqbal, M. Lepore, S. T. Kay, L. Lovisari, P. Mazzotta, B. J. Maughan, F. Oppizzi, E. Pointecouteau, M. Rossetti, J. Sayers, M. Sereno",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "We investigated the reconstruction of the intra-cluster medium radial density profiles in galaxy clusters, focusing on the impact of cluster morphology, dynamical state, and methodological choices, within the framework of the CHEX-MATE project. Using a sample of 109 simulated galaxy clusters analysed along 40 independent lines of sight, we compared azimuthal mean and median techniques for deprojection. We find that azimuthal median-based density profiles recover the true gas density with negligible bias over the radial range $[0.15-1.3] R_{500}$. Mean based profiles are affected by the presence of substructures. While an accurate masking of clumps or substructures can reduce the bias to $< 5\\%$, the discrepancy increases substantially in disturbed systems or when substructures remain unresolved. The mean-to-median density ratio statistically traces projected gas inhomogeneities, although intrinsic scatter and projection effects limit its use for individual clusters. The complementary use of mean and median profiles therefore provides the most complete approach for large X-ray cluster samples."
+  }
+ ],
+ "backfill": {
+  "announcement_date": "2026-11-05",
+  "listing_url": "https://arxiv.org/list/astro-ph.CO/pastweek?skip=0&show=2000",
+  "listing_day_header": "Thu, 5 Nov 2026 (showing 24 of 24 entries )",
+  "listing_sha256": "dc911e7038d8aec0fc3874b4ede864a4d9ebecc049c4d8fc1238019ac625ec91",
+  "metadata_api": "https://export.arxiv.org/api/query",
+  "metadata_api_response_sha256": [
+   "c3cfcdcac2523dd07d2f03a18172f4ef3ea7e88576d3c21c80c1bccaf81b6aee"
+  ],
+  "metadata_versions": {
+   "2611.06872": "2611.06872v1",
+   "2611.06787": "2611.06787v1",
+   "2611.06399": "2611.06399v1",
+   "2611.06330": "2611.06330v1",
+   "2611.06329": "2611.06329v1",
+   "2611.06304": "2611.06304v1",
+   "2611.05947": "2611.05947v1",
+   "2611.05718": "2611.05718v1",
+   "2611.05566": "2611.05566v1",
+   "2611.05560": "2611.05560v1",
+   "2611.05504": "2611.05504v1",
+   "2611.05476": "2611.05476v1"
+  },
+  "scope": "Primary-category new submissions only, as grouped by this category listing. Cross-lists and replacements are excluded.",
+  "metadata_note": "Metadata retrieved during backfill may reflect revisions after the announcement date. Each category retains the date grouping of its own historical listing."
+ }
+}

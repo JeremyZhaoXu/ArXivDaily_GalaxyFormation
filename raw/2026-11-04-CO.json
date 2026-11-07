@@ -1,0 +1,126 @@
+{
+ "category": "astro-ph.CO",
+ "fetched_utc": "2026-11-07T17:48:48Z",
+ "listing_header": "Showing new listings for Wednesday, 4 November 2026",
+ "n_new": 13,
+ "papers": [
+  {
+   "id": "2611.05367",
+   "title": "SBi3PCF: cosmology with Dark Energy Survey Year 3 cosmic shear",
+   "authors": "David Gebauer, Anik Halder, Zhengyangguang Gong, Cora Uhlemann",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "We present the first cosmic shear data analysis of the integrated 3-point correlation function (i3PCF), a higher-order weak lensing statistic, and the first simulation-based inference (SBI) analysis of a three-point cosmic shear correlation function on survey data. Using SBi3PCF, our previously developed SBI framework for the i3PCF, we jointly constrain the $w$CDM parameter space with the cosmic shear 2-point correlation functions $ξ_\\pm$ (2PCFs) and the i3PCFs $ζ_\\pm$ from the Dark Energy Survey Year 3 (DES Y3) weak lensing shape catalogue, from which we detect $ζ_\\pm$ with a signal-to-noise ratio of 12.8. Our forward model is built on the CosmoGridV1 N-body simulations and includes the survey mask, shape noise, intrinsic alignment, baryonic feedback, photometric redshift uncertainty and shear calibration bias. The analysis was carried out blind, with all choices frozen, and only unblinded once coverage tests, tests of the accuracy of the learned likelihoods, and internal consistency tests had been passed. For the joint $ξ_\\pm$ + $ζ_\\pm$ analysis we obtain $Ω_m = 0.272^{+0.038}_{-0.033}$, $S_8 = 0.784^{+0.024}_{-0.021}$ and $w_0 = -1.04^{+0.25}_{-0.19}$. Adding $ζ_\\pm$ improves the figure of merit in the $Ω_m$-$S_8$-$w_0$ parameter space by a factor of $1.59$ over $ξ_\\pm$ alone, as predicted by simulated i3PCF analyses. This gain comes from third-order information on angular scales $\\geq 15'$ and aperture radii $\\geq 50'$, a regime where baryonic effects are subdominant. The constraints are consistent with the other DES Y3 analyses of the same catalogue and with independent lensing analyses, and differ by at most $2.4σ$ from CMB and BAO data (Planck 2018 + BAO, in $Ω_m$-$S_8$-$w_0$). This shows that $ζ_\\pm$ can be analysed on cosmological survey data with a fully simulation-based approach, an important step towards Stage-IV surveys."
+  },
+  {
+   "id": "2611.05351",
+   "title": "Mapping large-scale structure without galaxy formation - combining fast radio bursts with CMB lensing",
+   "authors": "James M. Sullivan, Kiyoshi Masui, Ryan Raikman, Shion Andrew, Haochen Wang",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "Fast radio bursts (FRBs) are an emerging precision probe of cosmological fluctuations. The amount and quality of observed FRB data will grow enormously over the next decade. FRB dispersion data directly probe the free electron distribution up to intergalactic scales. Precision models of the free electron distribution are necessary to exploit this exciting new probe of large-scale structure. We show that the free electron distribution almost exactly follows the total matter distribution. We confirm this fact by estimating the electron field-level bias parameters for the first time from the FLAMINGO simulations. With simulation-based knowledge of a handful of electron free parameters, the electron distribution largely acts as a second realization of the matter distribution. Working on large scales, we can leverage this fact to combine FRB correlations with those of Cosmic Microwave Background (CMB) weak lensing to constrain cosmological parameters. Assuming access to localized FRBs with redshifts, we perform cosmological forecasts using these two large-scale matter probes, which have no strong dependence on baryonic feedback models nor on parameters that encode galaxy formation. We show that the parameters $σ_8$ and $Ω_m$ are constrained at a level similar to or better than that obtained by combining FRB dispersion with weak lensing of galaxy shapes under conservative assumptions. These results motivate the use of FRB data as a complementary probe of cosmic structure and will be especially compelling as redshifts become available for localized FRB host galaxies."
+  },
+  {
+   "id": "2611.05338",
+   "title": "Bright Siren Cosmology Beyond Fisher: DALI Forecasts for Third-Generation Gravitational Wave Observatories",
+   "authors": "Mayara H. Pacheco, Josiel M. S. de Souza, Odylio D. Aguiar, Márcio E. S. Alves",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; General Relativity and Quantum Cosmology (gr-qc)",
+   "abstract": "In this work we assess non-Gaussian extensions of Fisher forecasting based on the Derivative Approximation for Likelihoods (DALI). We simulate ensembles of bright siren catalogs for third-generation observatories, adopting a Cosmic Explorer (CE) and a triangular Einstein Telescope (ET) network, frequency-domain inspiral waveforms, and selection-motivated priors for counterpart detection. We reconstruct approximate likelihoods using Fisher and the first DALI correction (Doublet), and propagate the inferred distance information to cosmological inference in a w0waCDM model. We find that the Doublet approximation provides tighter cosmological constraints than the Fisher approximation, reducing the inferred uncertainties by approximately a factor of two in agreement with non-approximate likelihood (called Exact) results. For our GW network onfiguration, 300 bright-siren detections up to z=1 yield an H0 precision of ~2.7% with the Doublet approximation, compared with ~2.5% for the exact likelihood. The adopted non-Gaussian GW priors induce a systematic displacement of the inferred luminosity distances from the fiducial values, which is also present in the exact GW reconstruction and propagates into the cosmological parameters. Compared with the exact cosmological likelihood, the Doublet results differ by only ~10% on average in the parameter uncertainties, compared with ~195% for the traditional Fisher approximation. The Doublet approximation also substantially reduces the computational cost, by a factor of ~55 for the GW analysis and by ~12 for cosmological likelihood evaluations, yielding an estimated reduction of ~55 in the total computational cost of the combined analysis. Our results show the potential of DALI-based approximations to provide accurate and computationally efficient tools for forecasting in bright siren cosmology."
+  },
+  {
+   "id": "2611.05199",
+   "title": "Response to \"Late Time Dynamical Dark Energy and the CMB-Distance Ladder Tension\"",
+   "authors": "Michael S. Turner, Dragan Huterer",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "We respond to the recent paper by Efstathiou (arXiv:2607.29562) who makes several statements that appear to be in conflict with our recent paper (Turner & Huterer, arXiv:2606.05358). We stand by our primary result that direct determinations of $H_0$ can be sensitive to the late-time expansion history. We also point out where there is significant agreement between his work and ours."
+  },
+  {
+   "id": "2611.05190",
+   "title": "Cosmological evolution and late-time attractors in axion-monopole interacting dark energy",
+   "authors": "Emmanuel N. Saridakis",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; General Relativity and Quantum Cosmology (gr-qc); High Energy Physics - Theory (hep-th)",
+   "abstract": "We investigate the cosmological dynamics of axion-monopole interacting dark energy, examining whether a microscopically motivated dark-sector interaction can sustain stable late-time acceleration. In particular, magnetic monopoles constitute dark matter and an ultralight axion contributes to dark energy, with their interaction arising from the Witten effect through field-dependent dyon masses. We formulate the autonomous system, classify its critical points and stability, and investigate the evolution analytically and numerically. We find that stable de Sitter attractors at finite positive Hubble parameter require a positive cosmological constant and correspond to axion-potential minima, whereas those at maxima are unstable. Nevertheless, transient axion-driven acceleration remains possible without an explicit cosmological constant. Furthermore, the interaction induces matter-era tracking, namely an attracting slow-drift regime rather than an exact critical point. The interaction-effective dark-energy equation of state can cross the phantom divide, although the physical equation of state remains non-phantom. Extending the analysis to the full Bogomol'nyi-Prasad-Sommerfield dyon mass, we find that the main dynamical features persist, while the field evolution and interaction strength depend on the microscopic dyon properties. Our results demonstrate how a microscopically motivated dark-sector interaction can give rise to distinctive cosmological evolution and effective dark-energy behavior."
+  },
+  {
+   "id": "2611.05112",
+   "title": "Linear perturbation theory and structure formation in a Horndeski theory of gravity without dark matter",
+   "authors": "Lorenzo Gervani, Antonaldo Diaferio, Francesco Pace",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; General Relativity and Quantum Cosmology (gr-qc)",
+   "abstract": "We study the formation and evolution of the cosmic large-scale structure (LSS) in a scalar-tensor Horndeski theory of gravity without dark matter. We impose that this theory reduces to Refracted Gravity (RG) in the weak-field limit. RG is a non-relativistic theory where the gravitational permittivity $ε(ρ)$, with $ρ$ the baryonic matter density, provides the gravitational boost required to describe both the dynamics of galaxies and galaxy clusters without dark matter. We show that $ε(ρ)$ equals the function $G_4(\\varphi)$ of the scalar field $\\varphi$ of our Horndeski model. The background evolution of a flat, matter-dominated, homogeneous and isotropic universe shows that $\\varphi$ is also responsible for the accelerated expansion of the universe and that the model is capable of reproducing the observed redshift evolution of the Hubble-Lemaître parameter. We finally develop the linear perturbation theory and study the growth factor equation. The model fails to correctly describe the LSS by predicting a late onset of the formation of cosmic structure at redshift $z\\lesssim 1$."
+  },
+  {
+   "id": "2611.04830",
+   "title": "Reconstructing the Large-Scale Velocity Field from DESI DR1 with Bayesian Inference",
+   "authors": "Raeed Mundow, Adi Nusser",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "Survey boundaries and nonlinear dynamics complicate reconstruction of large-scale matter-density and peculiar-velocity fields from galaxy redshift surveys. We develop and compare two reconstruction methods within a common Bayesian framework, based on linear perturbation theory and the Zel'dovich approximation, and apply them to the DESI Data Release 1 Bright Galaxy Survey. We infer the initial density field using a Gaussian prior and likelihood, with the Zel'dovich model displacing particles from a uniform Lagrangian grid. Both yield maximum a posteriori (MAP) fields; only the linear posterior is sampled. Our main findings are: \\textit{(i)} Both reconstructions yield similar large-scale density structures and coherent velocity patterns in the survey interior, beyond roughly \\(50\\,h^{-1}\\,\\mathrm{Mpc}\\) from the footprint boundaries. \\textit{(ii)} Comparison with Cosmicflows-4 groups, predominantly from the SDSS Fundamental Plane sample in the DESI overlap, shows close agreement between mean observed radial velocities and MAP predictions when binned by the latter, despite substantial individual scatter. \\textit{(iii)} Both yield similar reflex-dipole profiles, defined as mean shell velocities relative to those at randomly sampled centres, out to \\(\\sim225\\,h^{-1}\\,\\mathrm{Mpc}\\). The profiles depend weakly on the prior normalization \\(σ_8\\), but lie below the fiducial linear \\(Λ\\)CDM reference at \\(r<50\\,h^{-1}\\,\\mathrm{Mpc}\\). Sparse sampling limits the largest radii. \\textit{(iv)} In an exploratory BAO test, shifting galaxies and randoms to a target redshift \\(z=8\\) using reconstructed displacements sharpens the acoustic feature in both cases, with a slightly more pronounced peak for Zel'dovich. Survey geometry and galaxy bias remain the principal limitations."
+  },
+  {
+   "id": "2611.04484",
+   "title": "Structural axes of sources in the SUMSS survey and their alignments",
+   "authors": "D. Blinov, T. Bhattarai, I. Liodakis, A. Kumar, P. Bonfini",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "Coherent orientations of extragalactic radio sources have been reported on large angular scales, but their statistical significance and susceptibility to observational systematics remain debated. Searches based on very long baseline interferometry (VLBI) also leave the far southern sky comparatively sparsely sampled. We test for local alignments of kiloparsec-scale radio source structural axes in the Sydney University Molonglo Sky Survey (SUMSS), providing a complementary probe in the undersampled southern sky. We constructed a catalog of structural position angles for 4087 sources from 629 SUMSS mosaics. A convolutional neural network supplied initial angle estimates, which were corrected for image-to-sky coordinate distortion and visually vetted. We searched for local alignments using a coordinate-invariant parallel transport statistic on HEALPix tessellations, then refined candidate regions with a genetic algorithm. We calibrated the significance of the full search against mock skies that preserve the declination-dependent position angle distribution and undergo the same search procedure. Several regions show apparently strong local alignment, but none remains statistically significant after accounting for the look-elsewhere effect. The candidate signals are consistent with chance fluctuations in the full search. We find no statistically significant evidence for alignment of structural axes of radio sources in SUMSS images. The resulting southern sky position angle catalog provides a useful resource for future studies of radio source morphology and population properties."
+  },
+  {
+   "id": "2611.04419",
+   "title": "Stress-Testing Small-Scale Cosmological Inference With Empirical Galaxy--Halo Connection Models",
+   "authors": "Hanyue Wang, Kate Storey-Fisher, Philip Mansfield, Andrew Hearin, Marcelo Alvarez, Suchetha Cooray, Risa H. Wechsler",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "Small-scale galaxy clustering contains substantial cosmological information, but extracting it reliably requires robust modeling of the galaxy--halo connection. In this work, we compare two widely adopted families of empirical models, subhalo abundance matching (SHAM) and the halo occupation distribution (HOD), testing their predictions for galaxy clustering and their recovery of the input cosmology. Using Aemulus-$β$, a new multi-cosmology simulation suite with substructure merger trees, we fit multiple SHAM and HOD models to the small-scale clustering of a stellar-mass-selected mock galaxy catalog generated with the more physical semi-empirical model UniverseMachine. We then use cosmological evidence modeling to infer the structure growth parameter $S_8$. Our results show that the SHAM model, regardless of the treatment of numerically disrupted subhalos, is able to offer tight, unbiased constraints on $S_8$ with ~2-3% precision, using simulations of relatively small volumes that span a limited number of cosmologies. In contrast, HOD models, even when accounting for assembly bias, yield weaker and potentially biased cosmological constraints that are sensitive to implementation choices: the inferred $S_8$ degrades in precision to ~6-11% and can be offset by ~1$σ$. This suggests that the excessive parametric flexibility and model misspecification of most commonly adopted HOD models can degrade and bias the resulting cosmological constraints. We further evaluate each model's performance in predicting higher-order statistics not used in the fit and find that SHAM generally reproduces them more accurately than the tested HOD models. These results highlight the potential of leveraging predictive subhalo-level information from simulations to enable robust cosmological inference on small scales."
+  },
+  {
+   "id": "2611.04316",
+   "title": "Measuring the ultraviolet background at $z\\simeq3$ from the quasar proximity effect in DESI DR1",
+   "authors": "Patrick Shaw, Rupert A. C. Croft",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "Ionizing radiation from quasars reduces the abundance of neutral hydrogen in the surrounding intergalactic medium (IGM), suppressing Ly$α$ absorption. This absorption deficit, known as the quasar proximity effect, can be used to measure the ultraviolet background (UVBG). We measure the hydrogen photoionization rate of the UVBG in Data Release 1 of the Dark Energy Spectroscopic Instrument (DESI). Our sample contains 6,245 quasars over $2.75\\leq z<3.25$, selected with rest-frame absolute magnitudes at 1450 Angstroms of $M_{1450}\\leq-25.5$ and signal-to-noise ratios of at least 3 measured redward of Ly$α$. We reconstruct quasar continua with principal component analysis trained on Hubble Space Telescope spectra and stack the resulting transmitted-flux profiles. We fit the resulting stacked profile with a halo model that accounts for reduced absorption from quasar radiation and enhanced absorption in the surrounding overdense environment. We constrain the environmental contribution using independent measurements of quasar clustering bias, while the transmission profile constrains the UVBG. To validate our method, we construct mock spectra matched to the luminosity and noise properties of our DESI sample using the Astrid hydrodynamical simulation at $z=3$. We apply the same analysis pipeline to the mock spectra and DESI data, testing the recovery of known input photoionization rates and using the results to calibrate the final UVBG measurement. We obtain $Γ_{\\mathrm{HI}}=(1.376^{+0.095}_{-0.076})\\times10^{-12}\\,\\mathrm{s}^{-1}$ at $z\\simeq3$. The statistical errors are obtained by bootstrap resampling the DESI sightlines. We also estimate a systematic uncertainty of $^{+0.837}_{-0.521}\\times10^{-12}\\,\\mathrm{s}^{-1}$."
+  },
+  {
+   "id": "2611.03786",
+   "title": "3D dark matter map of the JWST COSMOS-Web field using diffusion-based generative priors",
+   "authors": "Diana Scognamiglio, Brandon Zhao, Katherine L. Bouman, Olivier Doré, Caitlin M. Casey, Maximilien Franco, Ghassem Gozaliasl, David Harvey, Olivier Ilbert, Jeffrey B. Jewell, Jeyhan S. Kartaltepe, Anton M. Koekemoer, Gavin Leroy, Richard Massey, Jason Rhodes, Brant E. Robertson, Marko Shuntov, Sune Toft, Greta Toni, Michael A. Troxel",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO) ; Machine Learning (cs.LG)",
+   "abstract": "Mapping the three-dimensional distribution of dark matter is key to tracing the growth of cosmic structure. Two-dimensional weak lensing mass maps recover its projected distribution, but they blend structures at different distances along the line of sight. We reconstruct the three-dimensional matter distribution in the 0.54 deg$^2$ COSMOS-Web field using deep James Webb Space Telescope imaging, with an effective source density of 121 galaxies arcmin$^{-2}$ We combine a physical weak lensing forward model with a diffusion-based Bayesian generative prior learned from cosmological simulations, yielding a posterior distribution of the matter field across 20 lens planes to $z \\simeq 2$, doubling the redshift reach of previous Hubble Space Telescope-based 3D reconstructions and approaching cosmic noon, an epoch of rapid galaxy growth. The reconstruction separates structures that overlap in projection and recovers non-Gaussian matter structure across a range of spatial scales, including over-densities associated with independently identified galaxy clusters that were not detected in earlier weak lensing maps. Posterior sampling quantifies the range of three-dimensional matter distributions allowed by the data, enabling a probabilistic visualization of the cosmic web while propagating uncertainties in its inferred structure. Null and simulation-based tests show that the recovered structures are supported by the lensing signal and are consistent with expectations from the fiducial $Λ$CDM cosmology. These results extend three-dimensional weak lensing mapping into the high-redshift, non-Gaussian regime and establish a route towards probabilistic mapping of the evolving cosmic web with current wide-field lensing surveys."
+  },
+  {
+   "id": "2611.03770",
+   "title": "The formation of the first cosmic structures in hybrid Milgromian cosmology",
+   "authors": "Tomas Ondro, Nikolaos Samaras",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "Tackling cosmology with Milgromian Dynamics (MOND) has been a challenge ever since its theoretical inception. In a hybrid MOND scheme, a hypothesized light sterile neutrino of $\\approx$ 11 eV/$c^2$ rest-mass is able to provide realistic initial conditions, fitting the third peak of the Planck CMB power spectrum as a Hot Dark Matter (HDM) component. At the same time, MOND governs the gravitational dynamics of density perturbations, while the background expansion follows the standard FLRW metric. We conduct and analyze hydrodynamical simulations of the fiducial $Λ$CDM model ($H_0 = 67.8$ km/s/Mpc, $Ω_m \\approx 0.31$, $Ω_{\\text{CDM}} \\approx 0.26$), the progenitor $ν$HDM model ($H_0 = 67.64$ km/s/Mpc, $Ω_m = 0.3, Ω_ν\\approx 0.26$), and its optimized version (opt-$ν$HDM model, $H_0 \\approx 55.6$ km/s/Mpc, $Ω_m \\approx 0.49$, $Ω_ν \\approx 0.42$), utilizing the publicly available codes RAMSES and Phantom of RAMSES. We compare for the first time the total matter power spectrum $P(k)$ of the hydrodynamical simulations at various redshifts, examining the systematic differences of the three investigated cosmologies. The redshift evolution of the power spectrum of the $Λ$CDM model compared to the $ν$HDM variants' counterpart offers important insight about the onset of structure formation. The combination of a light sterile neutrino and MOND gravity exceeds the $Λ$CDM model's matter $P(k)$ over all collapsing scales at late times ($z\\lesssim 1$). The density and velocity fields reveal a distinct difference between the underlying laws of gravity. Regardless of the modeled dependence in the jointly estimated data from Planck, DES Y1, SDSS, and eBOSS, the $ν$HDM hybrid models seem to produce an excess of power at associated resolution scales due to their cosmological design."
+  },
+  {
+   "id": "2611.03761",
+   "title": "De-lensing cosmic birefringence with joint reconstruction",
+   "authors": "Sebastian Belkner, Julien Carron",
+   "subjects": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+   "abstract": "Reconstruction of anisotropic cosmic birefringence from the CMB is limited by lensing $B$-mode sample variance and partially degenerate with the lensing curl. We study the joint reconstruction of lensing (gradient and curl) and birefringence at the maximum-a-posteriori point, whose spectra are near-optimal statistics. We predict the joint response and noise analytically, validate them on simulations, and show unbiased inference of its amplitude. Errors will shrink $5$-fold relative to quadratic estimators at SPT-3G+ depths, promising much tighter constraints on parity-violating new physics, owing to the removal of the lensing $B$-polarization sample variance."
+  }
+ ],
+ "backfill": {
+  "announcement_date": "2026-11-04",
+  "listing_url": "https://arxiv.org/list/astro-ph.CO/pastweek?skip=0&show=2000",
+  "listing_day_header": "Wed, 4 Nov 2026 (showing 23 of 23 entries )",
+  "listing_sha256": "dc911e7038d8aec0fc3874b4ede864a4d9ebecc049c4d8fc1238019ac625ec91",
+  "metadata_api": "https://export.arxiv.org/api/query",
+  "metadata_api_response_sha256": [
+   "cbd2fe70d16bc10490df4c1f1751cb8746040e2481b1cd34d708a12ba63cc84b"
+  ],
+  "metadata_versions": {
+   "2611.05367": "2611.05367v1",
+   "2611.05351": "2611.05351v1",
+   "2611.05338": "2611.05338v1",
+   "2611.05199": "2611.05199v1",
+   "2611.05190": "2611.05190v1",
+   "2611.05112": "2611.05112v1",
+   "2611.04830": "2611.04830v1",
+   "2611.04484": "2611.04484v1",
+   "2611.04419": "2611.04419v1",
+   "2611.04316": "2611.04316v1",
+   "2611.03786": "2611.03786v1",
+   "2611.03770": "2611.03770v1",
+   "2611.03761": "2611.03761v1"
+  },
+  "scope": "Primary-category new submissions only, as grouped by this category listing. Cross-lists and replacements are excluded.",
+  "metadata_note": "Metadata retrieved during backfill may reflect revisions after the announcement date. Each category retains the date grouping of its own historical listing."
+ }
+}
